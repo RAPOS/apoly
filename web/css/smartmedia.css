@@ -45,6 +45,26 @@
     .navbar-nav{
         margin-top: 0;
     }
+    .h1-main {
+        font-size: 40px;
+    }
+    .buttons-main .wbutton {
+        margin-top: 20px;
+    }
+    .products .title-main h2 {
+        font-size: 24px!important;
+        top: -5px;
+    }
+    .products .title-main .circle-main {
+        top: 20px;
+    }
+    .products .title-main2 h2 {
+        font-size: 24px!important;
+        top: 4px!important;
+    }
+    .products .title-main2 .circle-main {
+        top: 28px!important;
+    }
     .banner-text h1 {
         margin-top: 140px;
         margin-bottom: 140px;

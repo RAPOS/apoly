@@ -63,9 +63,34 @@ h3 {
 
 .bg-top {
     margin-top: -20px;
-    background: url("../images/bg.png") no-repeat top center;
-    background-size: cover;
+    position: relative;
     min-height: 1000px;
+}
+.bg-top .bg-video {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+    position: absolute;
+}
+.bg-top .bg-video video {
+    min-width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+}
+.bg-top .bg-video-shadow {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .h1-main {
@@ -75,9 +100,51 @@ h3 {
 }
 .div-main {
     color: #fff;
-    width: 320px;
+    font-size: 16px;
+    width: 340px;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 16px;
+}
+.buttons-main {
+    margin-top: 55px;
+}
+.buttons-main .lbutton {
+    height: 60px;
+    font-size: 20px;
+    font-family: "ClearSansBold", sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.buttons-main .wbutton {
+    margin-left: 10px;
+}
+
+.bg-top .circle-main {
+    margin: 0 auto;
+    margin-top: 19px;
+}
+
+.bg-top .element-main {
+    width: 85px;
+    height: 332px;
+    margin: 0 auto;
+    position: relative;
+    background: url("../images/main-element.png") no-repeat top center;
+}
+.bg-top .element-main div{
+    width: 1px;
+    height: 333px;
+    margin-left: 41px;
+    position: absolute;
+    background: #fff;
+}
+
+.circle-main {
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .header-contact {
@@ -85,7 +152,6 @@ h3 {
     margin-left: 20px;
 }
 .header-call {
-    /*color: #1b75b5;*/
     font-size: 18px;
     font-family: "ClearSansBold", sans-serif;
 }
@@ -238,6 +304,19 @@ a.desc:after {
 
 .page {
     margin-top: -60px;
+}
+.page .element-main {
+    width: 85px;
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+}
+.page .element-main div{
+    width: 1px;
+    height: 40px;
+    margin-left: 41px;
+    position: absolute;
+    background: #cacccd;
 }
 
 .page .page-head div {
@@ -567,7 +646,51 @@ a.desc:after {
 }
 
 .products {
-    margin-bottom: 86px;
+    border-left: 1px solid #cacccd;
+    padding-bottom: 86px;
+}
+
+.products .title-main {
+    position: relative;
+    margin-bottom: 70px;
+}
+.products .title-main h2 {
+    position: absolute;
+    font-size: 50px;
+    left: 40px;
+    top: 0;
+}
+.products .title-main .circle-main {
+    position: absolute;
+    left: -10px;
+    top: 40px;
+}
+.products .title-main img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.products .title-main2 {
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.products .title-main2 h2 {
+    position: absolute;
+    font-size: 50px;
+    left: 40px;
+    top: 18px;
+}
+.products .title-main2 .circle-main {
+    position: absolute;
+    left: -10px;
+    top: 58px;
+}
+.products .title-main2 img {
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
 .production-item {
@@ -597,11 +720,12 @@ a.desc:after {
     max-width: 370px;
 }
 
-.contact-form h1 {
-    margin-top: 101px;
+.contact-form div {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 200px;
     margin-bottom: 25px;
-    line-height: 42px;
-    text-transform: uppercase;
+    width: 260px;
 }
 
 .contact-form form {

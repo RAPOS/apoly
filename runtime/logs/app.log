@@ -19895,3 +19895,545 @@ $_SERVER = [
     'argv' => []
     'argc' => 0
 ]
+2016-06-16 02:37:41 [127.0.0.1][-][j6eamgihep228g5n5t1avsr0u2][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in D:\OpenServer\domains\apoly.dev\vendor\yiisoft\yii2\web\Request.php:189
+Stack trace:
+#0 D:\OpenServer\domains\apoly.dev\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\OpenServer\domains\apoly.dev\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OpenServer\domains\apoly.dev\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2016-06-16 02:37:41 [127.0.0.1][-][j6eamgihep228g5n5t1avsr0u2][info][application] $_COOKIE = [
+    '_csrf' => 'd8d0492ff1b10c942ad821044131339257f99689051266a801f5cfa4acfde165a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cGxMYABAQdPVJyFA1HQGuUG9wzoGwtz4\";}'
+    'PHPSESSID' => 'j6eamgihep228g5n5t1avsr0u2'
+    '_ym_uid' => '1465925947396506808'
+    '_identity' => 'e549c90869578a46f1b2f6e0dc1a4e24daf28fe62f72f280aaf9e02969f16d40a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'create' => -1
+    ]
+    '__returnUrl' => [
+        0 => '/admin'
+    ]
+    '__id' => 1
+    '__captcha/site/captcha' => 'yixadlq'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'apoly.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_IF_NONE_MATCH' => '\"21f-532a68fb000d5\"'
+    'HTTP_IF_MODIFIED_SINCE' => 'Thu, 12 May 2016 15:10:40 GMT'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://apoly.dev/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,bg;q=0.2'
+    'HTTP_COOKIE' => '_csrf=d8d0492ff1b10c942ad821044131339257f99689051266a801f5cfa4acfde165a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cGxMYABAQdPVJyFA1HQGuUG9wzoGwtz4%22%3B%7D; PHPSESSID=j6eamgihep228g5n5t1avsr0u2; _ym_uid=1465925947396506808; _identity=e549c90869578a46f1b2f6e0dc1a4e24daf28fe62f72f280aaf9e02969f16d40a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'PATH' => 'D:\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\OpenServer\\modules\\imagemagick;D:\\OpenServer\\modules\\php\\PHP-5.5;D:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\OpenServer\\modules\\http\\Apache-2.4;D:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'apoly.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/apoly.dev/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/apoly.dev/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/apoly.dev/web/index.php'
+    'REMOTE_PORT' => '51623'
+    'REDIRECT_URL' => '/images/Banner-arrows-31.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/images/Banner-arrows-31.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1466023059.993
+    'REQUEST_TIME' => 1466023059
+    'argv' => []
+    'argc' => 0
+]
+2016-06-16 02:37:41 [127.0.0.1][-][j6eamgihep228g5n5t1avsr0u2][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in D:\OpenServer\domains\apoly.dev\vendor\yiisoft\yii2\web\Request.php:189
+Stack trace:
+#0 D:\OpenServer\domains\apoly.dev\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\OpenServer\domains\apoly.dev\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OpenServer\domains\apoly.dev\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2016-06-16 02:37:41 [127.0.0.1][-][j6eamgihep228g5n5t1avsr0u2][info][application] $_COOKIE = [
+    '_csrf' => 'd8d0492ff1b10c942ad821044131339257f99689051266a801f5cfa4acfde165a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cGxMYABAQdPVJyFA1HQGuUG9wzoGwtz4\";}'
+    'PHPSESSID' => 'j6eamgihep228g5n5t1avsr0u2'
+    '_ym_uid' => '1465925947396506808'
+    '_identity' => 'e549c90869578a46f1b2f6e0dc1a4e24daf28fe62f72f280aaf9e02969f16d40a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'create' => -1
+    ]
+    '__returnUrl' => [
+        0 => '/admin'
+    ]
+    '__id' => 1
+    '__captcha/site/captcha' => 'yixadlq'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'apoly.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_IF_NONE_MATCH' => '\"224-532a68fafe194\"'
+    'HTTP_IF_MODIFIED_SINCE' => 'Thu, 12 May 2016 15:10:40 GMT'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://apoly.dev/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,bg;q=0.2'
+    'HTTP_COOKIE' => '_csrf=d8d0492ff1b10c942ad821044131339257f99689051266a801f5cfa4acfde165a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cGxMYABAQdPVJyFA1HQGuUG9wzoGwtz4%22%3B%7D; PHPSESSID=j6eamgihep228g5n5t1avsr0u2; _ym_uid=1465925947396506808; _identity=e549c90869578a46f1b2f6e0dc1a4e24daf28fe62f72f280aaf9e02969f16d40a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'PATH' => 'D:\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\OpenServer\\modules\\imagemagick;D:\\OpenServer\\modules\\php\\PHP-5.5;D:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\OpenServer\\modules\\http\\Apache-2.4;D:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'apoly.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/apoly.dev/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/apoly.dev/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/apoly.dev/web/index.php'
+    'REMOTE_PORT' => '51624'
+    'REDIRECT_URL' => '/images/Banner-arrows-30.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/images/Banner-arrows-30.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1466023059.976
+    'REQUEST_TIME' => 1466023059
+    'argv' => []
+    'argc' => 0
+]
+2016-06-16 02:38:19 [127.0.0.1][-][j6eamgihep228g5n5t1avsr0u2][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in D:\OpenServer\domains\apoly.dev\vendor\yiisoft\yii2\web\Request.php:189
+Stack trace:
+#0 D:\OpenServer\domains\apoly.dev\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\OpenServer\domains\apoly.dev\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OpenServer\domains\apoly.dev\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2016-06-16 02:38:19 [127.0.0.1][-][j6eamgihep228g5n5t1avsr0u2][info][application] $_COOKIE = [
+    '_csrf' => 'd8d0492ff1b10c942ad821044131339257f99689051266a801f5cfa4acfde165a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cGxMYABAQdPVJyFA1HQGuUG9wzoGwtz4\";}'
+    'PHPSESSID' => 'j6eamgihep228g5n5t1avsr0u2'
+    '_ym_uid' => '1465925947396506808'
+    '_identity' => 'e549c90869578a46f1b2f6e0dc1a4e24daf28fe62f72f280aaf9e02969f16d40a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'create' => -1
+    ]
+    '__returnUrl' => [
+        0 => '/admin'
+    ]
+    '__id' => 1
+    '__captcha/site/captcha' => 'yixadlq'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'apoly.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT_ENCODING' => 'identity;q=1, *;q=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://apoly.dev/'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,bg;q=0.2'
+    'HTTP_COOKIE' => '_csrf=d8d0492ff1b10c942ad821044131339257f99689051266a801f5cfa4acfde165a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cGxMYABAQdPVJyFA1HQGuUG9wzoGwtz4%22%3B%7D; PHPSESSID=j6eamgihep228g5n5t1avsr0u2; _ym_uid=1465925947396506808; _identity=e549c90869578a46f1b2f6e0dc1a4e24daf28fe62f72f280aaf9e02969f16d40a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_RANGE' => 'bytes=0-'
+    'PATH' => 'D:\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\OpenServer\\modules\\imagemagick;D:\\OpenServer\\modules\\php\\PHP-5.5;D:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\OpenServer\\modules\\http\\Apache-2.4;D:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'apoly.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/apoly.dev/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/apoly.dev/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/apoly.dev/web/index.php'
+    'REMOTE_PORT' => '52168'
+    'REDIRECT_URL' => '/files/apoly.mp4'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/files/apoly.mp4'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1466023099.768
+    'REQUEST_TIME' => 1466023099
+    'argv' => []
+    'argc' => 0
+]
+2016-06-16 02:39:10 [127.0.0.1][-][j6eamgihep228g5n5t1avsr0u2][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in D:\OpenServer\domains\apoly.dev\vendor\yiisoft\yii2\web\Request.php:189
+Stack trace:
+#0 D:\OpenServer\domains\apoly.dev\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\OpenServer\domains\apoly.dev\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OpenServer\domains\apoly.dev\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2016-06-16 02:39:10 [127.0.0.1][-][j6eamgihep228g5n5t1avsr0u2][info][application] $_COOKIE = [
+    '_csrf' => 'd8d0492ff1b10c942ad821044131339257f99689051266a801f5cfa4acfde165a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cGxMYABAQdPVJyFA1HQGuUG9wzoGwtz4\";}'
+    'PHPSESSID' => 'j6eamgihep228g5n5t1avsr0u2'
+    '_ym_uid' => '1465925947396506808'
+    '_identity' => 'e549c90869578a46f1b2f6e0dc1a4e24daf28fe62f72f280aaf9e02969f16d40a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'create' => -1
+    ]
+    '__returnUrl' => [
+        0 => '/admin'
+    ]
+    '__id' => 1
+    '__captcha/site/captcha' => 'yixadlq'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'apoly.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://apoly.dev/css/formicon.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,bg;q=0.2'
+    'HTTP_COOKIE' => '_csrf=d8d0492ff1b10c942ad821044131339257f99689051266a801f5cfa4acfde165a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cGxMYABAQdPVJyFA1HQGuUG9wzoGwtz4%22%3B%7D; PHPSESSID=j6eamgihep228g5n5t1avsr0u2; _ym_uid=1465925947396506808; _identity=e549c90869578a46f1b2f6e0dc1a4e24daf28fe62f72f280aaf9e02969f16d40a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'PATH' => 'D:\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\OpenServer\\modules\\imagemagick;D:\\OpenServer\\modules\\php\\PHP-5.5;D:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\OpenServer\\modules\\http\\Apache-2.4;D:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'apoly.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/apoly.dev/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/apoly.dev/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/apoly.dev/web/index.php'
+    'REMOTE_PORT' => '52697'
+    'REDIRECT_URL' => '/images/Banner-arrows-31.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/images/Banner-arrows-31.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1466023150.619
+    'REQUEST_TIME' => 1466023150
+    'argv' => []
+    'argc' => 0
+]
+2016-06-16 02:39:11 [127.0.0.1][-][j6eamgihep228g5n5t1avsr0u2][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in D:\OpenServer\domains\apoly.dev\vendor\yiisoft\yii2\web\Request.php:189
+Stack trace:
+#0 D:\OpenServer\domains\apoly.dev\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\OpenServer\domains\apoly.dev\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OpenServer\domains\apoly.dev\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2016-06-16 02:39:11 [127.0.0.1][-][j6eamgihep228g5n5t1avsr0u2][info][application] $_COOKIE = [
+    '_csrf' => 'd8d0492ff1b10c942ad821044131339257f99689051266a801f5cfa4acfde165a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cGxMYABAQdPVJyFA1HQGuUG9wzoGwtz4\";}'
+    'PHPSESSID' => 'j6eamgihep228g5n5t1avsr0u2'
+    '_ym_uid' => '1465925947396506808'
+    '_identity' => 'e549c90869578a46f1b2f6e0dc1a4e24daf28fe62f72f280aaf9e02969f16d40a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'create' => -1
+    ]
+    '__returnUrl' => [
+        0 => '/admin'
+    ]
+    '__id' => 1
+    '__captcha/site/captcha' => 'yixadlq'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'apoly.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://apoly.dev/css/formicon.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,bg;q=0.2'
+    'HTTP_COOKIE' => '_csrf=d8d0492ff1b10c942ad821044131339257f99689051266a801f5cfa4acfde165a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cGxMYABAQdPVJyFA1HQGuUG9wzoGwtz4%22%3B%7D; PHPSESSID=j6eamgihep228g5n5t1avsr0u2; _ym_uid=1465925947396506808; _identity=e549c90869578a46f1b2f6e0dc1a4e24daf28fe62f72f280aaf9e02969f16d40a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'PATH' => 'D:\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\OpenServer\\modules\\imagemagick;D:\\OpenServer\\modules\\php\\PHP-5.5;D:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\OpenServer\\modules\\http\\Apache-2.4;D:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'apoly.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/apoly.dev/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/apoly.dev/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/apoly.dev/web/index.php'
+    'REMOTE_PORT' => '52698'
+    'REDIRECT_URL' => '/images/Banner-arrows-30.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/images/Banner-arrows-30.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1466023150.617
+    'REQUEST_TIME' => 1466023150
+    'argv' => []
+    'argc' => 0
+]
+2016-06-16 02:39:12 [127.0.0.1][-][j6eamgihep228g5n5t1avsr0u2][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in D:\OpenServer\domains\apoly.dev\vendor\yiisoft\yii2\web\Request.php:189
+Stack trace:
+#0 D:\OpenServer\domains\apoly.dev\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\OpenServer\domains\apoly.dev\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OpenServer\domains\apoly.dev\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2016-06-16 02:39:11 [127.0.0.1][-][j6eamgihep228g5n5t1avsr0u2][info][application] $_COOKIE = [
+    '_csrf' => 'd8d0492ff1b10c942ad821044131339257f99689051266a801f5cfa4acfde165a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cGxMYABAQdPVJyFA1HQGuUG9wzoGwtz4\";}'
+    'PHPSESSID' => 'j6eamgihep228g5n5t1avsr0u2'
+    '_ym_uid' => '1465925947396506808'
+    '_identity' => 'e549c90869578a46f1b2f6e0dc1a4e24daf28fe62f72f280aaf9e02969f16d40a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'create' => -1
+    ]
+    '__returnUrl' => [
+        0 => '/admin'
+    ]
+    '__id' => 1
+    '__captcha/site/captcha' => 'yixadlq'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'apoly.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT_ENCODING' => 'identity;q=1, *;q=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://apoly.dev/'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,bg;q=0.2'
+    'HTTP_COOKIE' => '_csrf=d8d0492ff1b10c942ad821044131339257f99689051266a801f5cfa4acfde165a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cGxMYABAQdPVJyFA1HQGuUG9wzoGwtz4%22%3B%7D; PHPSESSID=j6eamgihep228g5n5t1avsr0u2; _ym_uid=1465925947396506808; _identity=e549c90869578a46f1b2f6e0dc1a4e24daf28fe62f72f280aaf9e02969f16d40a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_RANGE' => 'bytes=0-'
+    'PATH' => 'D:\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\OpenServer\\modules\\imagemagick;D:\\OpenServer\\modules\\php\\PHP-5.5;D:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\OpenServer\\modules\\http\\Apache-2.4;D:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'apoly.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/apoly.dev/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/apoly.dev/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/apoly.dev/web/index.php'
+    'REMOTE_PORT' => '52696'
+    'REDIRECT_URL' => '/files/apoly.mp4'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/files/apoly.mp4'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1466023150.629
+    'REQUEST_TIME' => 1466023150
+    'argv' => []
+    'argc' => 0
+]
+2016-06-16 02:42:42 [127.0.0.1][-][j6eamgihep228g5n5t1avsr0u2][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in D:\OpenServer\domains\apoly.dev\vendor\yiisoft\yii2\web\Request.php:189
+Stack trace:
+#0 D:\OpenServer\domains\apoly.dev\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\OpenServer\domains\apoly.dev\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OpenServer\domains\apoly.dev\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2016-06-16 02:42:42 [127.0.0.1][-][j6eamgihep228g5n5t1avsr0u2][info][application] $_COOKIE = [
+    '_csrf' => 'd8d0492ff1b10c942ad821044131339257f99689051266a801f5cfa4acfde165a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cGxMYABAQdPVJyFA1HQGuUG9wzoGwtz4\";}'
+    'PHPSESSID' => 'j6eamgihep228g5n5t1avsr0u2'
+    '_ym_uid' => '1465925947396506808'
+    '_identity' => 'e549c90869578a46f1b2f6e0dc1a4e24daf28fe62f72f280aaf9e02969f16d40a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'create' => -1
+    ]
+    '__returnUrl' => [
+        0 => '/admin'
+    ]
+    '__id' => 1
+    '__captcha/site/captcha' => 'yixadlq'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'apoly.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://apoly.dev/css/formicon.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,bg;q=0.2'
+    'HTTP_COOKIE' => '_csrf=d8d0492ff1b10c942ad821044131339257f99689051266a801f5cfa4acfde165a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cGxMYABAQdPVJyFA1HQGuUG9wzoGwtz4%22%3B%7D; PHPSESSID=j6eamgihep228g5n5t1avsr0u2; _ym_uid=1465925947396506808; _identity=e549c90869578a46f1b2f6e0dc1a4e24daf28fe62f72f280aaf9e02969f16d40a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'PATH' => 'D:\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\OpenServer\\modules\\imagemagick;D:\\OpenServer\\modules\\php\\PHP-5.5;D:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\OpenServer\\modules\\http\\Apache-2.4;D:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'apoly.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/apoly.dev/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/apoly.dev/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/apoly.dev/web/index.php'
+    'REMOTE_PORT' => '55201'
+    'REDIRECT_URL' => '/images/left.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/images/left.png'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1466023362.834
+    'REQUEST_TIME' => 1466023362
+    'argv' => []
+    'argc' => 0
+]
+2016-06-16 02:42:42 [127.0.0.1][-][j6eamgihep228g5n5t1avsr0u2][error][yii\web\HttpException:404] exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in D:\OpenServer\domains\apoly.dev\vendor\yiisoft\yii2\web\Request.php:189
+Stack trace:
+#0 D:\OpenServer\domains\apoly.dev\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 D:\OpenServer\domains\apoly.dev\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 D:\OpenServer\domains\apoly.dev\web\index.php(12): yii\base\Application->run()
+#3 {main}
+2016-06-16 02:42:42 [127.0.0.1][-][j6eamgihep228g5n5t1avsr0u2][info][application] $_COOKIE = [
+    '_csrf' => 'd8d0492ff1b10c942ad821044131339257f99689051266a801f5cfa4acfde165a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"cGxMYABAQdPVJyFA1HQGuUG9wzoGwtz4\";}'
+    'PHPSESSID' => 'j6eamgihep228g5n5t1avsr0u2'
+    '_ym_uid' => '1465925947396506808'
+    '_identity' => 'e549c90869578a46f1b2f6e0dc1a4e24daf28fe62f72f280aaf9e02969f16d40a:2:{i:0;s:9:\"_identity\";i:1;s:16:\"[1,null,2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'create' => -1
+    ]
+    '__returnUrl' => [
+        0 => '/admin'
+    ]
+    '__id' => 1
+    '__captcha/site/captcha' => 'yixadlq'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'apoly.dev'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT_ENCODING' => 'identity;q=1, *;q=0'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_REFERER' => 'http://apoly.dev/'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,es;q=0.2,bg;q=0.2'
+    'HTTP_COOKIE' => '_csrf=d8d0492ff1b10c942ad821044131339257f99689051266a801f5cfa4acfde165a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22cGxMYABAQdPVJyFA1HQGuUG9wzoGwtz4%22%3B%7D; PHPSESSID=j6eamgihep228g5n5t1avsr0u2; _ym_uid=1465925947396506808; _identity=e549c90869578a46f1b2f6e0dc1a4e24daf28fe62f72f280aaf9e02969f16d40a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A16%3A%22%5B1%2Cnull%2C2592000%5D%22%3B%7D'
+    'HTTP_RANGE' => 'bytes=0-'
+    'PATH' => 'D:\\OpenServer\\modules\\php\\PHP-5.5\\ext;D:\\OpenServer\\modules\\php\\PHP-5.5\\pear;D:\\OpenServer\\modules\\php\\PHP-5.5\\pear\\bin;D:\\OpenServer\\modules\\imagemagick;D:\\OpenServer\\modules\\php\\PHP-5.5;D:\\OpenServer\\modules\\database\\MySQL-5.5\\bin;D:\\OpenServer\\modules\\http\\Apache-2.4\\bin;D:\\OpenServer\\modules\\http\\Apache-2.4;D:\\OpenServer\\modules\\wget\\bin;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32)'
+    'SERVER_NAME' => 'apoly.dev'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/apoly.dev/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/apoly.dev/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/apoly.dev/web/index.php'
+    'REMOTE_PORT' => '55150'
+    'REDIRECT_URL' => '/files/apoly.mp4'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/files/apoly.mp4'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1466023362.892
+    'REQUEST_TIME' => 1466023362
+    'argv' => []
+    'argc' => 0
+]

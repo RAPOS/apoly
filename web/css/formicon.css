@@ -64,23 +64,23 @@
 }
 
 .icon-left-arrow {
-    content: url("../images/Banner-arrows-30.png");
+    content: url("../images/left.png");
 }
 .icon-left-arrow:active {
-    content: url("../images/Banner-arrows-34.png")!important;;
+    content: url("../images/left-1.png")!important;;
 }
 .icon-left-arrow:hover {
-    content: url("../images/Banner-arrows-33.png");
+    content: url("../images/left-2.png");
 }
 
 .icon-right-arrow {
-    content: url("../images/Banner-arrows-31.png");
+    content: url("../images/right.png");
 }
 .icon-right-arrow:active {
-    content: url("../images/Banner-arrows-35.png")!important;;
+    content: url("../images/right-1.png")!important;;
 }
 .icon-right-arrow:hover {
-    content: url("../images/Banner-arrows-32.png");
+    content: url("../images/right-2.png");
 }
 
 .icon-arrow {

@@ -86,18 +86,26 @@ $LBanners = LBanners::find()->all();
     ?>
     <?if ((Yii::$app->controller->id == 'site') && (Yii::$app->controller->action->id == 'index'))  {?>
         <div class="bg-top">
+            <div class="bg-video">
+                <video src="/files/apoly.mp4" autoplay="true" loop="true" preload="auto"></video>
+            </div>
+            <div class="bg-video-shadow"></div>
             <div class="container">
-                <div class="col-md-3"></div>
-                <div class="col-md-6 text-center">
-                    <h1 class="h1-main">Продукция<br>из полиэтилена</h1>
-                    <div class="div-main">
-                        Уникальное тогровое предложение. Идейные
-                        соображения высшего порядка, а также
-                        укрепление и развитие структуры.
-                    </div>
-                    <div class="buttons-main">
-                        <button type="submit" class="lbutton order">Заказать продукцию</button>
-                        <button type="submit" class="wbutton" onclick="location">Заказать продукцию</button>
+                <div class="row">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-6 text-center">
+                        <h1 class="h1-main">Продукция<br>из полиэтилена</h1>
+                        <div class="div-main">
+                            Уникальное тогровое предложение. Идейные
+                            соображения высшего порядка, а также
+                            укрепление и развитие структуры.
+                        </div>
+                        <div class="buttons-main">
+                            <button type="submit" class="lbutton order">Заказать продукцию</button>
+                            <button type="submit" class="wbutton" onclick="location.href = '/productions/'">Каталог продукции</button>
+                        </div>
+                        <div class="circle-main"></div>
+                        <div class="element-main"><div></div></div>
                     </div>
                 </div>
             </div>
@@ -141,14 +149,17 @@ $LBanners = LBanners::find()->all();
             </div>
             <div class="col-sm-6">
                 <div class="contact-form">
-                    <h1>Лучшие лесозаготовки урала!</h1>
+                    <div>
+                        Заполните форму обратной связи
+                        и наш специалист свяжется с вами
+                        в ближайшее время!
+                    </div>
                     <form id="contactform">
                         <h3>Форма обратной связи</h3>
                         <input class="form-control" type="text" placeholder="ВВЕДИТЕ ВАШЕ ИМЯ" name="name"/>
                         <input class="form-control" type="text" placeholder="ВВЕДИТЕ НОМЕР ТЕЛЕФОНА" name="phone"/>
                         <button class="lbutton" onclick="return false;">Оставить заявку</button>
                     </form>
-                    <small>* по версии журнала Forbes</small>
                 </div>
             </div>
         </div>
