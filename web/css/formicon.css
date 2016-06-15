@@ -1,0 +1,96 @@
+.form-icon {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    pointer-events: none;
+}
+
+.form-icon-user:before {
+    content: url("../images/Contacts-09.png");
+}
+
+.form-icon-envelope:before {
+    content: url("../images/Contacts-10.png");
+}
+
+.form-icon-star:before {
+    content: url("../images/Contacts-11.png");
+}
+
+.form-icon-pencil:before {
+    content: url("../images/Contacts-12.png");
+}
+
+.footer-icon {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+}
+
+.icon-instagram {
+    content: url("../images/Social-14.png");
+}
+.icon-instagram:active {
+    content: url("../images/Social-17.png")!important;;
+}
+.icon-instagram:hover {
+    content: url("../images/Social-20.png");
+}
+
+.icon-vk {
+    content: url("../images/Social-15.png");
+}
+.icon-vk:active {
+    content: url("../images/Social-18.png")!important;
+}
+.icon-vk:hover {
+    content: url("../images/Social-21.png");
+}
+
+.icon-twitter {
+    content: url("../images/Social-16.png");
+}
+.icon-twitter:active {
+    content: url("../images/Social-19.png")!important;;
+}
+.icon-twitter:hover {
+    content: url("../images/Social-22.png");
+}
+
+.icon-left-arrow {
+    content: url("../images/Banner-arrows-30.png");
+}
+.icon-left-arrow:active {
+    content: url("../images/Banner-arrows-34.png")!important;;
+}
+.icon-left-arrow:hover {
+    content: url("../images/Banner-arrows-33.png");
+}
+
+.icon-right-arrow {
+    content: url("../images/Banner-arrows-31.png");
+}
+.icon-right-arrow:active {
+    content: url("../images/Banner-arrows-35.png")!important;;
+}
+.icon-right-arrow:hover {
+    content: url("../images/Banner-arrows-32.png");
+}
+
+.icon-arrow {
+    margin-top: 325px;
+    cursor: pointer;
+}
+
+.icon-place {
+    content: url("../images/place.png");
+}
+.icon-call {
+    content: url("../images/call.png");
+}
