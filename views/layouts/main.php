@@ -116,34 +116,67 @@ $LBanners = LBanners::find()->all();
             ]) ?>
             <?= $content ?>
         </div>
-        <div class="banner-main">
+        <div class="banner-main" style="margin-top: -20px;">
             <div  class="container">
-                <div class="col-xs-1 col-sm-1 text-left" style="padding-left: 0;">
-                    <span class="icon-arrow icon-left-arrow" onclick="prevBanner();"></span>
+                <div class="row" style="height:77px; border-left:1px solid #cacccd;">
+                    <div class="title-main4">
+                        <img class="img-responsive" src="/images/4.png"/>
+                        <h2>Отзывы</h2>
+                        <div class="circle-main"></div>
+                    </div>
                 </div>
-                <div class="col-xs-9 col-sm-10">
-                    <?$count = 1;
-                    for ($i = 0; $i < count($LBanners); $i++) {?>
-                        <div class="row banner-item <?=$count == 1 ? 'active' : ''?>"
-                             data-path="<?=$LBanners[$i]->imagePath()?>"
-                             data-id="<?=$count?>"
-                             data-prev="<?=$count == 1 ? count($LBanners) : $count - 1?>"
-                             data-next="<?=$count == count($LBanners) ? 1 : $count + 1?>">
-                            <div class="col-sm-6 hidden-xs"></div>
-                            <div class="col-sm-6 banner-text">
-                                <h1><?=$LBanners[$i]->header?></h1>
-                                <button class="order">Оставить заявку</button> <a href="<?=$LBanners[$i]->link_more?>">Подробнее</a>
-                            </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12">
+                        <div id="cbp-fwslider" class="review-slider cbp-fwslider">
+                            <ul>
+                                <li>
+                                    <div>
+                                        <div class="row">
+                                            <div class="col-md-9 col-md-offset-3">
+                                                <div class="col-md-4 review_image">
+                                                    <div></div>
+                                                </div>
+                                                <div class="col-md-8 review_info">
+                                                    <p class="review_name">Дмитрий Пригожин</p>
+                                                    <p class="review_job">Исполнительный директор «Северсталь»</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p>"Просьба внимательно отнестиcь к ответам, т.к. это повлияет на качество, масштаб, сроки и стоимость предстоящих работ. Чем больше вы и ваши сотрудники погрузитесь в проект сейчас, тем большее удовлетворение получите от результата через несколько месяцев."</p>
+                                    </div>
+                                </li>
+                                <?if(count($LBanners)){
+                                    for ($i = 0; $i < count($LBanners); $i++) {?>
+                                        <li>
+                                            <div>
+                                                <div class="row">
+                                                    <div class="col-md-9 col-md-offset-3">
+                                                        <div class="col-md-4 review_image">
+                                                            <div></div>
+                                                        </div>
+                                                        <div class="col-md-8 review_info">
+                                                            <p class="review_name"></p>
+                                                            <p class="review_job"></p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <p></p>
+                                            </div>
+                                        </li>
+                                    <?}
+                                }?>
+                            </ul>
                         </div>
-                        <?$count++;
-                    }?>
-                </div>
-                <div class="col-xs-1 col-sm-1 text-right" style="padding-right: 0;">
-                    <span class="icon-arrow icon-right-arrow" onclick="nextBanner();"></span>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="banner-contact" id="banner-contact">
+            <div class="container text-center">
+                <div class="col-md-12 text-center">
+                    <h3>Специальное предложение</h3>
+                </div>
+            </div>
             <div class="col-sm-6 hidden-xs text-right">
                 <img src="/images/woman.png"/>
             </div>

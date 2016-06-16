@@ -714,6 +714,29 @@ a.desc:after {
     top: 0;
 }
 
+.banner-main .title-main4 {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 70px;
+}
+.banner-main .title-main4 h2 {
+    position: absolute;
+    color: white;
+    font-size: 50px;
+    left: 40px;
+    top: 5px;
+}
+.banner-main .title-main4 .circle-main {
+    position: absolute;
+    left: -10px;
+    top: 41px;
+}
+.banner-main .title-main4 img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
 .products .p-1, .products .p-2 {
     margin-bottom: 50px;
 }
