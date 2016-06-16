@@ -208,6 +208,43 @@ h3 {
     text-transform: uppercase;
 }
 
+.review-slider ul li > div {
+    background: url("../images/cloud.png") no-repeat center center;
+    background-size: 100%;
+    width: 847px;
+    height: 510px;
+}
+.review-slider ul li > div .review_info {
+    line-height: 15px;
+    text-align: left;
+    margin-top: 10px;
+}
+.review-slider ul li > div .review_info .review_name {
+    font-family: "ClearSansBold", sans-serif;
+    color: #1e75b6;
+    font-size:21px;
+}
+.review-slider ul li > div .review_info .review_job {
+    font-weight: 600;
+}
+.review-slider ul li > div > div  {
+    padding-top: 100px;
+}
+.review-slider ul li > div > p  {
+    padding-left: 15%;
+    padding-right: 15%;
+    display: inline-block;
+    white-space: normal;
+    font-style: italic;
+    margin-top:20px;
+}
+
+.review_image {
+    width:60px;
+    height:60px;
+    background:grey;
+}
+
 .footer {
     background: url("../images/Footer.png") no-repeat top center;
     border: none;

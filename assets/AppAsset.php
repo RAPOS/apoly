@@ -23,6 +23,7 @@ class AppAsset extends AssetBundle
         'css/smartmedia.css',
         'css/stylename.css',
         'css/jquery.fancybox.css',
+        'css/component.css',
     ];
     public $js = [
         //'js/banner.js',
