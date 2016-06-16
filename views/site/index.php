@@ -19,7 +19,7 @@ use app\models\LImages;
 			<h2>Популярная продукция</h2>
 			<div class="circle-main"></div>
 		</div>
-		<div class="row">
+		<div class="clearfix">
 			<?if($modelproductions){?>
 				<?foreach ($modelproductions as $key => $value) {?>
 					<div class="col-xs-12 col-md-3">
@@ -46,6 +46,64 @@ use app\models\LImages;
 			<img class="img-responsive" src="/images/2.png"/>
 			<h2>Наши преимущества</h2>
 			<div class="circle-main"></div>
+		</div>
+		<div class="clearfix">
+			<div class="col-xs-12 col-sm-4">
+				<div class="p-1 text-right">
+					<img src="/images/brave-01.png"/>
+					<h3>Любой вид доствки</h3>
+					<p>Уникальное торговое предложение<br>Идейные торговые соображения</p>
+				</div>
+				<div class="p-3 text-right">
+					<img src="/images/brave-03.png"/>
+					<h3>Всегда в наличии</h3>
+					<p>Уникальное торговое предложение<br>Идейные торговые соображения</p>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-4">
+				<div class="text-center">
+					<img src="/images/logo-down.png"/>
+					<br>
+					<button class="gbutton order">Заказать звонок</button>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-4">
+				<div class="p-2 text-left">
+					<img src="/images/brave-02.png"/>
+					<h3>Богатый опыт</h3>
+					<p>Уникальное торговое предложение<br>Идейные торговые соображения</p>
+				</div>
+				<div class="p-4 text-left">
+					<img src="/images/brave-04.png"/>
+					<h3>Нам доверяют</h3>
+					<p>Уникальное торговое предложение<br>Идейные торговые соображения</p>
+				</div>
+			</div>
+		</div>
+		<div class="title-main3">
+			<img class="img-responsive" src="/images/3.png"/>
+			<h2>Нам доверяют</h2>
+			<div class="circle-main"></div>
+		</div>
+		<div class="clearfix">
+			<div class="col-xs-6 col-sm-6 col-md-2">
+				<img class="img-responsive" style="margin: 0 auto;margin-top: 40px;" src="/images/logos/l-1.png"/>
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-2">
+				<img class="img-responsive" style="margin: 0 auto;margin-top: 35px;" src="/images/logos/l-2.png"/>
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-2">
+				<img class="img-responsive" style="margin: 0 auto;margin-top: 55px;" src="/images/logos/l-3.png"/>
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-2">
+				<img class="img-responsive" style="margin: 0 auto;margin-top: 40px;" src="/images/logos/l-4.png"/>
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-2">
+				<img class="img-responsive" style="margin: 0 auto;margin-top: 25px;" src="/images/logos/l-5.png"/>
+			</div>
+			<div class="col-xs-6 col-sm-6 col-md-2">
+				<img class="img-responsive" style="margin: 0 auto;" src="/images/logos/l-6.png"/>
+			</div>
 		</div>
     </div>
 </div>
