@@ -25,7 +25,7 @@ h3 {
 }
 
 .nav-custom {
-    background: url("../images/Header.png") no-repeat top center;
+    background: url("/images/Header.png") no-repeat top center;
     border-radius: 0;
     border: none;
     height: 80px;
@@ -64,7 +64,7 @@ h3 {
 .bg-top {
     margin-top: -20px;
     position: relative;
-    min-height: 1000px;
+    min-height: 1070px;
 }
 .bg-top .bg-video {
     bottom: 0;
@@ -121,7 +121,7 @@ h3 {
 
 .bg-top .circle-main {
     margin: 0 auto;
-    margin-top: 19px;
+    margin-top: 88px;
 }
 
 .bg-top .element-main {
@@ -129,8 +129,8 @@ h3 {
     height: 332px;
     margin: 0 auto;
     position: relative;
-    background: url("../images/main-element.png") no-repeat top center;
-}
+    background: url("/images/main-element.png") no-repeat top center;
+} 
 .bg-top .element-main div{
     width: 1px;
     height: 333px;
@@ -149,16 +149,36 @@ h3 {
 
 .header-contact {
     color: #fff;
-    margin-left: 20px;
+    margin-left: 5px;
+    margin-top: -5px;	
 }
+
+.header-contact span {
+	vertical-align: middle;
+}
+
+.header-place {
+	border-bottom: 1px dashed white;
+	text-decoration:none !important;
+	color:white !important;
+}
+
+.header-contact span:nth-child(n+1) {
+	margin-left:5px;
+}
+
 .header-call {
     font-size: 18px;
     font-family: "ClearSansBold", sans-serif;
 }
 
 .banner-main {
+	position: relative;
+	z-index:999;
     background-color: #d9801e;
     min-height: 700px;
+    -webkit-clip-path: polygon(50% 0, 100% 0, 100% 75%, 50% 100%, 0 75%, 0 0);
+    clip-path: polygon(50% 0, 100% 0, 100% 75%, 50% 100%, 0 75%, 0 0);
 }
 
 .banner-main .banner-item {
@@ -170,13 +190,38 @@ h3 {
 }
 
 .banner-contact {
-    background: url("../images/bg-footer.png") no-repeat top center;
+	background: url("/images/bg-footer.png") no-repeat top center;
     background-size: cover;
-    min-height: 700px;
+    min-height: 847px;
+    position: relative;
+    margin-top: -180px;
+    padding-top: 175px;
 }
 
+.banner-contact h3 {
+    font-size: 50px;
+    color: white;
+    z-index: 9999;
+    text-transform: uppercase;
+}
+.banner-contact .container h3 {
+    font-size: 49px;
+    color: white;
+    padding: 5%;
+    z-index: 9998;
+    position: relative;
+	margin-top: -50px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: "ClearSansBold", sans-serif;
+    background: url("../images/border.png") no-repeat;
+    background-size: 100% 100%;
+	max-width:847px;
+}
 .banner-contact > div > img {
-    margin-top: 94px;
+    margin-top: -60px;
+    z-index: 9999;
+    position: relative;
 }
 
 .banner-text {
@@ -208,8 +253,12 @@ h3 {
     text-transform: uppercase;
 }
 
+.advantages .text-right, .advantages .text-left{
+	margin-bottom:40px;
+}	
+	
 .review-slider ul li > div {
-    background: url("../images/cloud.png") no-repeat center center;
+    background: url("/images/cloud.png") no-repeat center center;
     background-size: 100%;
     width: 847px;
     height: 510px;
@@ -220,15 +269,15 @@ h3 {
     margin-top: 10px;
 }
 .review-slider ul li > div .review_info .review_name {
-    font-family: "ClearSansBold", sans-serif;
-    color: #1e75b6;
-    font-size:21px;
+	font-family: "ClearSansBold", sans-serif;
+	color: #1e75b6;
+	font-size:21px;
 }
 .review-slider ul li > div .review_info .review_job {
     font-weight: 600;
 }
 .review-slider ul li > div > div  {
-    padding-top: 100px;
+    padding-top: 100px;	
 }
 .review-slider ul li > div > p  {
     padding-left: 15%;
@@ -236,23 +285,22 @@ h3 {
     display: inline-block;
     white-space: normal;
     font-style: italic;
-    margin-top:20px;
+	margin-top:20px;
 }
 
 .review_image {
-    width:60px;
-    height:60px;
-    background:grey;
+	width:60px;
+	height:60px;
+	background:grey;
 }
 
 .footer {
-    background: url("../images/Footer.png") no-repeat top center;
+    background: url("/images/footer.png") no-repeat top center;
     border: none;
     color: #fff;
     min-height: 80px;
     padding-top: 33px;
 }
-
 
 .footer > div > div > div:nth-child(1) {
     text-align: center;
@@ -340,14 +388,16 @@ a.desc:after {
 }
 
 .page {
-    margin-top: -60px;
+    margin-top: -70px;	
 }
+
 .page .element-main {
     width: 85px;
     height: 40px;
     margin: 0 auto;
     position: relative;
 }
+
 .page .element-main div{
     width: 1px;
     height: 40px;
@@ -684,6 +734,7 @@ a.desc:after {
 
 .products {
     border-left: 1px solid #cacccd;
+    padding-bottom: 20px;
 }
 
 .products .title-main {
@@ -731,8 +782,8 @@ a.desc:after {
 
 .products .title-main3 {
     position: relative;
-    margin-top: 50px;
-    margin-bottom: 150px;
+    margin-top: 30px;
+    margin-bottom: 110px;
 }
 .products .title-main3 h2 {
     position: absolute;
@@ -751,6 +802,29 @@ a.desc:after {
     top: 0;
 }
 
+.products .gbutton {
+    height: 60px;
+    font-size: 20px;
+    margin-top: 100px;
+	margin-bottom:50px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    font-family: "ClearSansBold", sans-serif;
+}
+
+.partner > div {
+	height:165px;
+    position: relative;	
+}
+.partner > div img{
+   position: relative;
+   width: 100%;
+   max-height:165px;
+   top: 50%;
+   transform: translateY(-50%);
+}
 .banner-main .title-main4 {
     position: relative;
     margin-top: 20px;
@@ -774,20 +848,6 @@ a.desc:after {
     top: 0;
 }
 
-.products .p-1, .products .p-2 {
-    margin-bottom: 50px;
-}
-
-.products .gbutton {
-    height: 60px;
-    font-size: 20px;
-    margin-top: 150px;
-    padding-top: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 15px;
-    font-family: "ClearSansBold", sans-serif;
-}
 
 .production-item {
     max-width: 244px;
@@ -819,14 +879,14 @@ a.desc:after {
 .contact-form div {
     color: #fff;
     font-size: 16px;
-    margin-top: 200px;
+    margin-top: 20px;
     margin-bottom: 25px;
     width: 260px;
 }
 
 .contact-form form {
     padding: 39px 39px 40px;
-    border-radius: 25px;
+    border-radius: 10px;
     background: #fff;
     text-align: center;
 }
@@ -907,7 +967,7 @@ a.desc:after {
 	border-radius:10px; 
 }
 .order_form_close {
-	background: url(../images/close.png) no-repeat;
+	background: url(/images/close.png) no-repeat;
 	width:30px;
 	position:absolute;
 	right:10px;

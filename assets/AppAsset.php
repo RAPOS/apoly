@@ -20,15 +20,16 @@ class AppAsset extends AssetBundle
     public $css = [
         'css/formicon.css',
         'css/site.css',
-        'css/smartmedia.css',
         'css/stylename.css',
         'css/jquery.fancybox.css',
         'css/component.css',
+        'css/smartmedia.css',
     ];
     public $js = [
         //'js/banner.js',
         'js/functions.js',
         'js/jquery.fancybox.js',
+        'js/modernizr.custom.js',
     ];
     public $jsOptions = ['position' => \yii\web\View::POS_HEAD];
     public $depends = [

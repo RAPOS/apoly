@@ -10,6 +10,8 @@ $(document).ready(function() {
     }
 	
 	$(".zoomimage").fancybox();
+	
+	$( '#cbp-fwslider' ).cbpFWSlider();
 
 	$('.order').click(function(){
 		$('.order_form_wrapper').fadeIn('slow');

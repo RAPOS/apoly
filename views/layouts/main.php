@@ -73,12 +73,16 @@ $LBanners = LBanners::find()->all();
                 'url' => ['/site/contacts'],
             ],
             '<li class="visible-lg">
-				<button class="wbutton order" style="margin-left: 20px;padding-left: 15px;padding-right: 15px;">Заказать звонок</button>
+				<button class="wbutton order" style="margin-left: 20px; padding-left: 15px; padding-right: 15px;">Заказать звонок</button>
 			</li>',
             '<li class="visible-md visible-lg header-contact">
-                <span class="icon-call"></span> <span class="header-call">8(495)555-565</span>
+                <span class="icon-call"></span> 
+				<span class="header-call">8(495)555-565</span>
                 <br>
-                <span class="icon-place"></span> Уфимская, 19
+                <span class="icon-place"></span> 
+				<span>
+					<a href="/contacts/" class="header-place">Уфимская, 19</a>
+				</span>
 			</li>',
         ]
     ]);
@@ -86,8 +90,8 @@ $LBanners = LBanners::find()->all();
     ?>
     <?if ((Yii::$app->controller->id == 'site') && (Yii::$app->controller->action->id == 'index'))  {?>
         <div class="bg-top">
-            <div class="bg-video">
-                <video src="/files/apoly.mp4" autoplay="true" loop="true" preload="auto"></video>
+            <div class="bg-video embed-responsive embed-responsive-16by9">
+                <video class="embed-responsive-item" src="/files/apoly.mp4" autoplay="true" loop="true" preload="auto"></video>
             </div>
             <div class="bg-video-shadow"></div>
             <div class="container">
@@ -96,8 +100,8 @@ $LBanners = LBanners::find()->all();
                     <div class="col-md-6 text-center">
                         <h1 class="h1-main">Продукция<br>из полиэтилена</h1>
                         <div class="div-main">
-                            Уникальное тогровое предложение. Идейные
-                            соображения высшего порядка, а также
+                            Уникальное торговое предложение. Идейные
+                            соображения высшего порядка, а так же
                             укрепление и развитие структуры.
                         </div>
                         <div class="buttons-main">
@@ -118,65 +122,65 @@ $LBanners = LBanners::find()->all();
         </div>
         <div class="banner-main" style="margin-top: -20px;">
             <div  class="container">
-                <div class="row" style="height:77px; border-left:1px solid #cacccd;">
-                    <div class="title-main4">
-                        <img class="img-responsive" src="/images/4.png"/>
-                        <h2>Отзывы</h2>
-                        <div class="circle-main"></div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12">
-                        <div id="cbp-fwslider" class="review-slider cbp-fwslider">
-                            <ul>
-                                <li>
-                                    <div>
-                                        <div class="row">
-                                            <div class="col-md-9 col-md-offset-3">
-                                                <div class="col-md-4 review_image">
-                                                    <div></div>
-                                                </div>
-                                                <div class="col-md-8 review_info">
-                                                    <p class="review_name">Дмитрий Пригожин</p>
-                                                    <p class="review_job">Исполнительный директор «Северсталь»</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <p>"Просьба внимательно отнестиcь к ответам, т.к. это повлияет на качество, масштаб, сроки и стоимость предстоящих работ. Чем больше вы и ваши сотрудники погрузитесь в проект сейчас, тем большее удовлетворение получите от результата через несколько месяцев."</p>
-                                    </div>
-                                </li>
-                                <?if(count($LBanners)){
-                                    for ($i = 0; $i < count($LBanners); $i++) {?>
-                                        <li>
-                                            <div>
-                                                <div class="row">
-                                                    <div class="col-md-9 col-md-offset-3">
-                                                        <div class="col-md-4 review_image">
-                                                            <div></div>
-                                                        </div>
-                                                        <div class="col-md-8 review_info">
-                                                            <p class="review_name"></p>
-                                                            <p class="review_job"></p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <p></p>
-                                            </div>
-                                        </li>
-                                    <?}
-                                }?>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+				<div class="row" style="height:77px; border-left:1px solid #cacccd;">
+					<div class="title-main4">
+						<img class="img-responsive" src="/images/4.png"/>
+						<h2>Отзывы</h2>
+						<div class="circle-main"></div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 col-sm-12">
+						<div id="cbp-fwslider" class="review-slider cbp-fwslider">
+							<ul>
+								<li>
+									<div>
+										<div class="row">
+											<div class="col-sm-10 col-sm-offset-2 col-md-9 col-md-offset-3">
+												<div class="col-sm-12 col-md-4 review_image">
+													<div></div>
+												</div>
+												<div class="col-sm-12 col-md-8 review_info">
+													<p class="review_name">Дмитрий Пригожин</p>
+													<p class="review_job">Исполнительный директор «Северсталь»</p>
+												</div>
+											</div>									
+										</div>										
+										<p>"Просьба внимательно отнестиcь к ответам, т.к. это повлияет на качество, масштаб, сроки и стоимость предстоящих работ. Чем больше вы и ваши сотрудники погрузитесь в проект сейчас, тем большее удовлетворение получите от результата через несколько месяцев."</p>
+									</div>
+								</li>
+								<?if(count($LBanners)){
+									for ($i = 0; $i < count($LBanners); $i++) {?>
+										<li>
+											<div>
+												<div class="row">
+													<div class="col-md-9 col-md-offset-3">
+														<div class="col-md-4 review_image">
+															<div></div>
+														</div>
+														<div class="col-md-8 review_info">
+															<p class="review_name"></p>
+															<p class="review_job"></p>
+														</div>
+													</div>									
+												</div>										
+												<p></p>
+											</div>
+										</li>	
+									 <?}					
+								 }?>
+							</ul>
+						</div>				
+					</div>				
+				</div>				
             </div>
         </div>
         <div class="banner-contact" id="banner-contact">
-            <div class="container text-center">
-                <div class="col-md-12 text-center">
-                    <h3>Специальное предложение</h3>
-                </div>
-            </div>
+			<div class="container text-center">
+				<div class="col-md-12 text-center">
+					<h3>Специальное предложение</h3>
+				</div>
+			</div>
             <div class="col-sm-6 hidden-xs text-right">
                 <img src="/images/woman.png"/>
             </div>
@@ -323,7 +327,7 @@ $LBanners = LBanners::find()->all();
         </div>
     </div>
 </footer>
-
+<script src="/js/jquery.cbpFWSlider.js"></script>
 <?php $this->endBody() ?>
 </body>
 </html>
