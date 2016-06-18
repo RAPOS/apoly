@@ -35,7 +35,7 @@ use app\models\LImages;
 								<img <?/*style="box-shadow: 0 0 10px rgba(0,0,0,0.5);"*/?> class="img-responsive" src="<?='/assets/'.$LImages->name.'.'.$LImages->extension?>" alt="">
 							<?}?>
 							<h3><?=$value->header?></h3>
-							<p><?=$value->text?></p>
+							<p><?=mb_truncate($value->text, 250);?></p>
 							<button class="lbutton">Заказать</button>
 						</div>
 					</div>

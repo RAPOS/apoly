@@ -78,13 +78,30 @@
     }	
 	.review_image {
 		margin: 0 auto;
-		margin-bottom:20px;
+		margin-bottom: 10px;
 	}
+	
 	.review-slider ul li > div {
 		background:none;
+		height:425px;
+	}
+	.banner-main {
+		min-height:600px;
+		-webkit-clip-path: polygon(50% 0, 100% 0, 100% 75%, 52% 100%, 0 72%, 0 0);
+		clip-path: polygon(50% 0, 100% 0, 100% 75%, 52% 100%, 0 72%, 0 0);		
 	}
 	.review-slider ul li > div .review_info {
 		text-align:center;
+		color:white;
+	}
+	.review-slider ul li > div > div {
+		padding-top: 40px;
+	}
+	.review-slider ul li > div > p {
+		color:white;
+	}
+	.cbp-fwslider ul li > div {
+		max-width:100%;
 	}
     .banner-text h1 {
         margin-top: 140px;

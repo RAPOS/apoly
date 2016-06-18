@@ -1,1 +1,1 @@
-<div class="page text-center">    <div class="page-head">        <h2><?=$model->title?></h2>    </div>    <div class="text-left" style="margin-top: 20px;">        <?=$model->text?>    </div></div>
+<div class="page text-center">    <div class="page-head">        <h2><?=$model->title?></h2>    </div>    <div class="text-left" style="margin-top: 20px;">        <?=$model->text?>    </div></div>

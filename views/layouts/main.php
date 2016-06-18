@@ -136,7 +136,7 @@ $LBanners = LBanners::find()->all();
 								<li>
 									<div>
 										<div class="row">
-											<div class="col-sm-10 col-sm-offset-2 col-md-9 col-md-offset-3">
+											<div class="col-sm-12 col-md-9 col-md-offset-3">
 												<div class="col-sm-12 col-md-4 review_image">
 													<div></div>
 												</div>
@@ -149,6 +149,38 @@ $LBanners = LBanners::find()->all();
 										<p>"Просьба внимательно отнестиcь к ответам, т.к. это повлияет на качество, масштаб, сроки и стоимость предстоящих работ. Чем больше вы и ваши сотрудники погрузитесь в проект сейчас, тем большее удовлетворение получите от результата через несколько месяцев."</p>
 									</div>
 								</li>
+								<li>
+									<div>
+										<div class="row">
+											<div class="col-sm-12 col-md-9 col-md-offset-3">
+												<div class="col-sm-12 col-md-4 review_image">
+													<div></div>
+												</div>
+												<div class="col-sm-12 col-md-8 review_info">
+													<p class="review_name">Дмитрий Пригожин</p>
+													<p class="review_job">Исполнительный директор «Северсталь»</p>
+												</div>
+											</div>									
+										</div>										
+										<p>"Просьба внимательно отнестиcь к ответам, т.к. это повлияет на качество, масштаб, сроки и стоимость предстоящих работ. Чем больше вы и ваши сотрудники погрузитесь в проект сейчас, тем большее удовлетворение получите от результата через несколько месяцев."</p>
+									</div>
+								</li>
+								<li>
+									<div>
+										<div class="row">
+											<div class="col-sm-12 col-md-9 col-md-offset-3">
+												<div class="col-sm-12 col-md-4 review_image">
+													<div></div>
+												</div>
+												<div class="col-sm-12 col-md-8 review_info">
+													<p class="review_name">Дмитрий Пригожин</p>
+													<p class="review_job">Исполнительный директор «Северсталь»</p>
+												</div>
+											</div>									
+										</div>										
+										<p>"Просьба внимательно отнестиcь к ответам, т.к. это повлияет на качество, масштаб, сроки и стоимость предстоящих работ. Чем больше вы и ваши сотрудники погрузитесь в проект сейчас, тем большее удовлетворение получите от результата через несколько месяцев."</p>
+									</div>
+								</li>								
 								<?if(count($LBanners)){
 									for ($i = 0; $i < count($LBanners); $i++) {?>
 										<li>

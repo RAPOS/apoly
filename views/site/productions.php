@@ -24,7 +24,7 @@ $this->title = "Продукция";
 						$image->resize(400, 300);
 						$image->save(Yii::getAlias('@webroot/assets/'.$LImages->name.'.'.$LImages->extension));
 						?>
-						<img style="box-shadow: 0 0 10px rgba(0,0,0,0.5);" class="img-responsive" src="<?='/assets/'.$LImages->name.'.'.$LImages->extension?>" alt="">
+						<img <?/*style="box-shadow: 0 0 10px rgba(0,0,0,0.5);"*/?> class="img-responsive" src="<?='/assets/'.$LImages->name.'.'.$LImages->extension?>" alt="">
 					<?}?>
 					<h3><?=$value->header?></h3>
 					<p>

@@ -38,6 +38,9 @@ if (!is_null($create) || !is_null($save) || !is_null($delete)) print $this->rend
 						'attribute' => 'text',
 						'format' => 'html',
 						'contentOptions' => ['style' => 'width: 410px;'],
+						'value' => function($data){
+							return mb_truncate($data->text, 250);
+						},
 					],
 					[
 						'class' => 'yii\grid\ActionColumn',

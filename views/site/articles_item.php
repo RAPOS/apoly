@@ -8,6 +8,8 @@
 use app\models\LImages;
 if (isset($model->status)) {
     $this->title = 'Акции - ' . $model->header;
+} else if (isset($model->cost)) {
+    $this->title = 'Продукция - ' . $model->header;
 } else {
     $this->title = 'Статьи - ' . $model->header;
 }
@@ -31,6 +33,9 @@ if (isset($model->status)) {
             <?} else {?>
                 <p style="color: red;">Акция закончена</p>
             <?}
+        }?>
+        <?if (isset($model->cost)) {
+            print $model->cost;
         }?>
         <div class="share">
             <button class="gbutton" onclick="$('.bubble').css('display', ($('.bubble').css('display') == 'none') ? 'block' : 'none')">Поделиться статьей</button>

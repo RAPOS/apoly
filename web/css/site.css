@@ -214,7 +214,7 @@ h3 {
     display: inline-block;
     text-transform: uppercase;
     font-family: "ClearSansBold", sans-serif;
-    background: url("../images/border.png") no-repeat;
+    background: url("/images/border.png") no-repeat;
     background-size: 100% 100%;
 	max-width:847px;
 }
@@ -857,6 +857,10 @@ a.desc:after {
 
 .production-item p {
     margin-top: 20px;
+}
+
+.production-item h3 {
+   color: #1e75b6;
 }
 
 .production-item button {
