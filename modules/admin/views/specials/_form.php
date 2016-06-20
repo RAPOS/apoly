@@ -26,6 +26,7 @@ if (!$array_image && !$array_image_cfg) {
 ?>
 <div class="lactions-form">
     <?php $form = ActiveForm::begin(); ?>
+	<h3>Основное</h3>
 	<div class="row">
 		<div class="col-xs-12 col-sm-4">
 			<?= $form->field($model, 'header')->input('text')?>
@@ -111,6 +112,9 @@ if (!$array_image && !$array_image_cfg) {
 			}',
 		]
 	]);?>
+	<h3>Для продвижения</h3>
+	<?= $form->field($model, 'keywords')->textInput() ?>
+	<?= $form->field($model, 'description')->textarea(['rows' => 6])?>
 	<br>
 	<div class="form-group">
 		<?= Html::submitButton($model->isNewRecord ? 'Сохранить' : 'Обновить', ['class' => 'btn btn-success']) ?>

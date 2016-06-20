@@ -45,13 +45,15 @@ CREATE TABLE IF NOT EXISTS `l_actions` (
   `date` varchar(64) NOT NULL,
   `id_image` int(11) NOT NULL,
   `status` int(1) NOT NULL,
+  `keywords` text,
+  `description` text,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
 
 -- Дамп данных таблицы apoly.l_actions: ~1 rows (приблизительно)
 /*!40000 ALTER TABLE `l_actions` DISABLE KEYS */;
-INSERT INTO `l_actions` (`id`, `header`, `text`, `date`, `id_image`, `status`) VALUES
-	(1, 'Сшитый полиэтилен', '<p>В основе инженерных систем SANEXT&ndash; трубы из сшитого полиэтилена PEX-a<br />(самая совершенная технологии сшивки полиэтилена). <br />Продуктовую линейку дополняют латунные фитинги.<br />Для соединения труб и фитингов используется технология сдвижной гильзы. <br />При разработке и усовершенствовании систем SANEXT используется многолетний опыт производства и применения полимерных труб в Европе<br />10-лет гарантии на смонтированную систему. <br />действует договор гражданской ответственности, страхующий имущество 3-х лиц.</p>', '30-06-2016', 117, 1);
+INSERT INTO `l_actions` (`id`, `header`, `text`, `date`, `id_image`, `status`, `keywords`, `description`) VALUES
+	(1, 'Сшитый полиэтилен', '<p>В основе инженерных систем SANEXT&ndash; трубы из сшитого полиэтилена PEX-a<br />(самая совершенная технологии сшивки полиэтилена). <br />Продуктовую линейку дополняют латунные фитинги.<br />Для соединения труб и фитингов используется технология сдвижной гильзы. <br />При разработке и усовершенствовании систем SANEXT используется многолетний опыт производства и применения полимерных труб в Европе<br />10-лет гарантии на смонтированную систему. <br />действует договор гражданской ответственности, страхующий имущество 3-х лиц.</p>', '30-06-2016', 117, 1, NULL, NULL);
 /*!40000 ALTER TABLE `l_actions` ENABLE KEYS */;
 
 
@@ -126,7 +128,7 @@ CREATE TABLE IF NOT EXISTS `l_contacts` (
 -- Дамп данных таблицы apoly.l_contacts: ~1 rows (приблизительно)
 /*!40000 ALTER TABLE `l_contacts` DISABLE KEYS */;
 INSERT INTO `l_contacts` (`site`, `text_form`, `text_place`, `text_contact`, `keywords`, `description`) VALUES
-	(1, 'Компания «Лес Ресурс» предлагает поставки леса кругляка в больших объёмах на постоянной основе. Продажа кругляка из отборных хвойных пород древесины производится партиями любого объёма по выгодным ценам.', 'Свердловская область<br>\r\nгород Полевской<br>\r\nВосточно промышленный район<br>\r\nтерритория Северского завода ЖБИ', 'Продажа леса<br>\r\n8(34350)34590<br>\r\n<br>\r\nОтдел продажи пиломатериалов<br>\r\n(34350)35931<br>\r\n(34350)34535', NULL, NULL);
+	(1, '<p>Заполните форму обратной связи и наш специалист свяжится с вами в ближайшее время!</p>', '<p>Башкоторстан, Уфа,</p>\r\n<p>Черншевского, 14, 75</p>', '<p><strong>+7(495)555-565</strong></p>\r\n<p>info@apoly.ru</p>', '', '');
 /*!40000 ALTER TABLE `l_contacts` ENABLE KEYS */;
 
 
@@ -161,10 +163,22 @@ CREATE TABLE IF NOT EXISTS `l_gallery` (
   `id_photo` int(11) NOT NULL AUTO_INCREMENT,
   `id_image` int(11) NOT NULL,
   PRIMARY KEY (`id_photo`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
 
--- Дамп данных таблицы apoly.l_gallery: ~0 rows (приблизительно)
+-- Дамп данных таблицы apoly.l_gallery: ~11 rows (приблизительно)
 /*!40000 ALTER TABLE `l_gallery` DISABLE KEYS */;
+INSERT INTO `l_gallery` (`id_photo`, `id_image`) VALUES
+	(1, 118),
+	(2, 119),
+	(3, 120),
+	(4, 121),
+	(5, 122),
+	(6, 123),
+	(7, 124),
+	(8, 125),
+	(9, 126),
+	(10, 127),
+	(11, 128);
 /*!40000 ALTER TABLE `l_gallery` ENABLE KEYS */;
 
 
@@ -177,9 +191,9 @@ CREATE TABLE IF NOT EXISTS `l_images` (
   `extension` varchar(5) NOT NULL,
   `status` bit(1) NOT NULL DEFAULT b'0',
   PRIMARY KEY (`id_image`)
-) ENGINE=InnoDB AUTO_INCREMENT=118 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=129 DEFAULT CHARSET=utf8;
 
--- Дамп данных таблицы apoly.l_images: ~112 rows (приблизительно)
+-- Дамп данных таблицы apoly.l_images: ~123 rows (приблизительно)
 /*!40000 ALTER TABLE `l_images` DISABLE KEYS */;
 INSERT INTO `l_images` (`id_image`, `name`, `path`, `extension`, `status`) VALUES
 	(1, '97f9218c10810b108a6f93b5b4d5d395', 'files/images/1/97f9218c10810b108a6f93b5b4d5d395.jpg', 'jpg', b'0'),
@@ -293,7 +307,18 @@ INSERT INTO `l_images` (`id_image`, `name`, `path`, `extension`, `status`) VALUE
 	(114, '4c2329fda59aea4740eb931a6368a509', 'files/images/114/4c2329fda59aea4740eb931a6368a509.jpg', 'jpg', b'1'),
 	(115, '791209b930d60cdcf91ee4a0342ff2d5', 'files/images/115/791209b930d60cdcf91ee4a0342ff2d5.jpg', 'jpg', b'1'),
 	(116, '120f4ce88f229787408d8a8d24e839d6', 'files/images/116/120f4ce88f229787408d8a8d24e839d6.jpg', 'jpg', b'1'),
-	(117, '86395df085b4c7611a637f2b6a26f7c3', 'files/images/117/86395df085b4c7611a637f2b6a26f7c3.jpg', 'jpg', b'1');
+	(117, '86395df085b4c7611a637f2b6a26f7c3', 'files/images/117/86395df085b4c7611a637f2b6a26f7c3.jpg', 'jpg', b'1'),
+	(118, 'ec8b76bcc92c627fe0a1f22157668a5f', 'files/images/118/ec8b76bcc92c627fe0a1f22157668a5f.jpg', 'jpg', b'1'),
+	(119, '712fe2a455c45f15b730d33a1aa37735', 'files/images/119/712fe2a455c45f15b730d33a1aa37735.jpg', 'jpg', b'1'),
+	(120, '4627e1b9a4c08726645807b1186e8674', 'files/images/120/4627e1b9a4c08726645807b1186e8674.jpg', 'jpg', b'1'),
+	(121, 'd61220acb829860217c9ee5d5e113815', 'files/images/121/d61220acb829860217c9ee5d5e113815.jpeg', 'jpeg', b'1'),
+	(122, '53b160c84fef75396b26a4717f714f13', 'files/images/122/53b160c84fef75396b26a4717f714f13.jpg', 'jpg', b'1'),
+	(123, 'cf0e50c7ad041fbc989228d40897bed2', 'files/images/123/cf0e50c7ad041fbc989228d40897bed2.JPG', 'JPG', b'1'),
+	(124, '34f032ba26f894dbebc91ef6616a5771', 'files/images/124/34f032ba26f894dbebc91ef6616a5771.jpeg', 'jpeg', b'1'),
+	(125, '9c33546e3be70650f6137e269bb2b5a1', 'files/images/125/9c33546e3be70650f6137e269bb2b5a1.jpg', 'jpg', b'1'),
+	(126, 'a0138fe3467c0328b037541c0f7eb91c', 'files/images/126/a0138fe3467c0328b037541c0f7eb91c.jpg', 'jpg', b'1'),
+	(127, 'bb60e0355917e7908f825f075a1b9f6e', 'files/images/127/bb60e0355917e7908f825f075a1b9f6e.jpg', 'jpg', b'1'),
+	(128, '629518fd9cda0fcd796bad593c29b3b1', 'files/images/128/629518fd9cda0fcd796bad593c29b3b1.jpg', 'jpg', b'1');
 /*!40000 ALTER TABLE `l_images` ENABLE KEYS */;
 
 
@@ -323,19 +348,19 @@ CREATE TABLE IF NOT EXISTS `l_productions` (
   `text` text NOT NULL,
   `id_image` int(11) NOT NULL,
   `date` text NOT NULL,
+  `cost` int(11) NOT NULL,
   `keywords` text,
   `description` text,
-  `cost` int(11) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
 -- Дамп данных таблицы apoly.l_productions: ~4 rows (приблизительно)
 /*!40000 ALTER TABLE `l_productions` DISABLE KEYS */;
-INSERT INTO `l_productions` (`id`, `header`, `text`, `id_image`, `date`, `keywords`, `description`, `cost`) VALUES
-	(1, 'Пропилен', '<p>Уникальное торговое предложение. Идейные соображения высшего порядка.</p>', 108, '20.05.2016', '', '', 133),
-	(2, 'Полиамид', '<p>Уникальное торговое предложение. Идейные соображения высшего порядка.</p>', 109, '14.06.2016', NULL, NULL, 133),
-	(3, 'ПВД', '<p>Уникальное торговое предложение. Идейные соображения высшего порядка.</p>', 110, '14.06.2016', NULL, NULL, 133),
-	(4, 'ПНД', '<p>Уникальное торговое предложение. Идейные соображения высшего порядка.</p>', 111, '14.06.2016', NULL, NULL, 133);
+INSERT INTO `l_productions` (`id`, `header`, `text`, `id_image`, `date`, `cost`, `keywords`, `description`) VALUES
+	(1, 'Пропилен', '<p>Уникальное торговое предложение. Идейные соображения высшего порядка.</p>', 108, '20.05.2016', 133, '', ''),
+	(2, 'Полиамид', '<p>Уникальное торговое предложение. Идейные соображения высшего порядка.</p>', 109, '14.06.2016', 133, NULL, NULL),
+	(3, 'ПВД', '<p>Уникальное торговое предложение. Идейные соображения высшего порядка.</p>', 110, '14.06.2016', 133, NULL, NULL),
+	(4, 'ПНД', '<p>Уникальное торговое предложение. Идейные соображения высшего порядка.</p>', 111, '14.06.2016', 133, NULL, NULL);
 /*!40000 ALTER TABLE `l_productions` ENABLE KEYS */;
 
 
