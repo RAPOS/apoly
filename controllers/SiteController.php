@@ -67,8 +67,13 @@ class SiteController extends Controller
         ]);
     }
 
-    public function actionProductions()
+    public function actionProductions($id = null)
     {
+        if ($id) {
+            $LProductions = LProductions::find()->where(['id' => $id])->one();
+            return $this->render('articles_item', ['model' => $LProductions]);
+        }
+        
         return $this->render('productions', ['model' => LProductions::find()->all()]);
     }
 

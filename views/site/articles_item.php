@@ -34,9 +34,12 @@ if (isset($model->status)) {
                 <p style="color: red;">Акция закончена</p>
             <?}
         }?>
-        <?if (isset($model->cost)) {
-            print $model->cost;
-        }?>
+        <?if (isset($model->cost)) {?>
+            <div class="row">
+                <div class="col-xs-6 cost"><?=$model->cost?> руб./кг</div>
+                <div class="col-xs-6 button"><button class="lbutton order">Заказать</button></div>
+            </div>
+        <?}?>
         <div class="share">
             <button class="gbutton" onclick="$('.bubble').css('display', ($('.bubble').css('display') == 'none') ? 'block' : 'none')">Поделиться статьей</button>
             <div class="bubble">

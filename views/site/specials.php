@@ -26,7 +26,7 @@ $this->title = 'Акции';
 						?>			
 						<img class="img-responsive" src="<?='/assets/'.$LImages->name.'.'.$LImages->extension?>" alt="">		
 					<?}?>
-					<h3 style="color: #1b75b5;"><?=$value->header?></h3>
+					<h3 style="color: #1b75b5;"><a href="/actions/<?=$value->id?>/"><?=$value->header?></a></h3>
 					<p>
 						<?=mb_truncate($value->text, 250)?>
 					</p>
