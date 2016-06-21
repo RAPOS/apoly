@@ -148,11 +148,17 @@
         font-size: 20px;
     }
     .navbar-nav > li > a {
-        font-size: 12px;
+        font-size: 11px;
     }
 }
 
-@media (min-width: 767px) and (max-width: 1199px) {
+@media (min-width: 991px) and (max-width: 1199px) {
+    .icon_panel img {
+        width: 150px;
+    }
+    .icon_panel h3 {
+        font-size: 20px;
+    }
     .navbar-nav > li > a {
         font-size: 12px;
     }

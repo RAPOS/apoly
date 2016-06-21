@@ -4,20 +4,20 @@ body {
 }
 
 body {
-    font-family: "ClearSansRegular", sans-serif;
+    font-family: "UniSansRegular", sans-serif;
     font-size: 14px;
 }
 
 h1 {
     color: #fff;
     font-size: 48px;
-    font-family: "ClearSansBold", sans-serif;
+    font-family: "UniSansHeavy", sans-serif;
 }
 
 h2 {
     font-size: 36px;
     text-transform: uppercase;
-    font-family: "ClearSansBold", sans-serif;
+    font-family: "UniSansHeavy", sans-serif;
 }
 
 h3 {
@@ -94,7 +94,7 @@ h3 {
 }
 
 .h1-main {
-    font-size: 50px;
+    font-size: 52px;
     margin-top: 300px;
     text-transform: uppercase;
 }
@@ -111,7 +111,7 @@ h3 {
 .buttons-main .lbutton {
     height: 60px;
     font-size: 20px;
-    font-family: "ClearSansBold", sans-serif;
+    font-family: "UniSansBold", sans-serif;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -169,7 +169,7 @@ h3 {
 
 .header-call {
     font-size: 18px;
-    font-family: "ClearSansBold", sans-serif;
+    font-family: "UniSansBold", sans-serif;
 }
 
 .banner-main {
@@ -213,7 +213,7 @@ h3 {
 	margin-top: -50px;
     display: inline-block;
     text-transform: uppercase;
-    font-family: "ClearSansBold", sans-serif;
+    font-family: "UniSansBold", sans-serif;
     background: url("/images/border.png") no-repeat;
     background-size: 100% 100%;
 	max-width:847px;
@@ -232,7 +232,7 @@ h3 {
     margin-bottom: 18px;
 }
 .banner-text button {
-    font-family: "ClearSansMedium", sans-serif;
+    font-family: "UniSansSemiBold", sans-serif;
     text-transform: uppercase;
     color: #fff;
     height: 58px;
@@ -269,7 +269,7 @@ h3 {
     margin-top: 10px;
 }
 .review-slider ul li > div .review_info .review_name {
-	font-family: "ClearSansBold", sans-serif;
+	font-family: "UniSansBold", sans-serif;
 	color: #1e75b6;
 	font-size:21px;
 }
@@ -555,7 +555,7 @@ a.desc:after {
 
 .page .block-item .item .more a {
     color: #000;
-    font-family: "ClearSansItalic", sans-serif;
+    font-family: "UniSansBoldItalic", sans-serif;
 }
 
 .page .block-item .item .date {
@@ -693,7 +693,7 @@ a.desc:after {
     background: #009444;
     border: none;
     color: #fff;
-    font-family: "ClearSansMedium", sans-serif;
+    font-family: "UniSansSemiBold", sans-serif;
     padding-left: 10px;
     padding-right: 10px;
     outline: none;
@@ -715,7 +715,7 @@ a.desc:after {
     background: #e3861f;
     border: none;
     color: #fff;
-    font-family: "ClearSansMedium", sans-serif;
+    font-family: "UniSansSemiBold", sans-serif;
     padding-left: 10px;
     padding-right: 10px;
     outline: none;
@@ -731,7 +731,7 @@ a.desc:after {
 }
 
 .wbutton {
-    font-family: "ClearSansMedium", sans-serif;
+    font-family: "UniSansSemiBold", sans-serif;
     text-transform: uppercase;
     color: #fff;
     height: 40px;
@@ -831,7 +831,7 @@ a.desc:after {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 15px;
-    font-family: "ClearSansBold", sans-serif;
+    font-family: "UniSansBold", sans-serif;
 }
 
 .partner > div {

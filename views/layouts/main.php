@@ -73,7 +73,7 @@ $LBanners = LBanners::find()->all();
                 'url' => ['/site/contacts'],
             ],
             '<li class="visible-lg">
-				<button class="wbutton order" style="margin-left: 20px; padding-left: 15px; padding-right: 15px;">Заказать звонок</button>
+				<button class="wbutton order" style="margin-left: 0px;padding-left: 13px;padding-right: 13px;">Заказать звонок</button>
 			</li>',
             '<li class="visible-md visible-lg header-contact">
                 <span class="icon-call"></span> 
