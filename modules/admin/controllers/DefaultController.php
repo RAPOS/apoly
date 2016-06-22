@@ -2,6 +2,7 @@
 
 namespace app\modules\admin\controllers;
 
+use app\models\LAbout;
 use app\models\LActions;
 use app\models\LArticles;
 use app\models\LBanners;
@@ -91,6 +92,35 @@ class DefaultController extends Controller
 		]);
 	}
 
+	public function actionAbout()
+	{
+		if (Yii::$app->user->isGuest)  $this->redirect(Yii::$app->user->loginUrl);
+
+		$model = LAbout::find()->where(['site' => 1])->one();
+		if(!$model){
+			$model = new LAbout();
+			$model->site = 1;
+		}
+		if ($model->load(Yii::$app->request->post()) && $model->save()) {
+			Yii::$app->getSession()->setFlash('save', true);
+			return $this->redirect(['about']);
+		}
+
+		$save = null;
+		if (Yii::$app->getSession()->has('save')) {
+			if (Yii::$app->getSession()->getFlash('save')) {
+				$save = true;
+			} else {
+				$save = false;
+			}
+		}
+
+		return $this->render('about', [
+			'model' => $model,
+			'save' => $save,
+		]);
+	}	
+	
 	public function actionGallery()
 	{
 		if (Yii::$app->user->isGuest)  $this->redirect(Yii::$app->user->loginUrl);

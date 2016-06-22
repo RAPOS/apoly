@@ -20,6 +20,13 @@ $this->title = 'Панель управления';
 					</a>
 				</div>
 				<div class="col-xs-6 col-sm-4 col-md-3 text-center">
+					<a class="icon_panel" href="/admin/about/">
+						<img src="/images/panel/company.png"/>
+						<h3>О компании</h3>
+						<div></div>
+					</a>
+				</div>				
+				<div class="col-xs-6 col-sm-4 col-md-3 text-center">
 					<a class="icon_panel" href="/admin/productions/">
 						<img src="/images/panel/money_bag.png"/>
 						<h3>Продукция</h3>

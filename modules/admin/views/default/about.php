@@ -19,8 +19,7 @@ if (!is_null($save)) print $this->render('_alert', ['save' => $save]);
 				<li class="active">О компании</li>
 			</ul>
 			<?php $form = ActiveForm::begin(); ?>
-				<?= $form->field($model, 'title')->input('text')?>
-				<?= $form->field($model, 'subtitle')->input('text')?>
+				<h3>Раздел &laquo;О компании&raquo;</h3>			
 				<?= $form->field($model, 'text')->widget(TinyMce::className(), [
 					'options' => ['rows' => 6],
 					'language' => 'ru',
