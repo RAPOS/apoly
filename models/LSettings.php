@@ -12,6 +12,8 @@ use Yii;
  * @property string $link_vk
  * @property string $link_instagram
  * @property string $link_twitter
+ * @property string $email_oder
+ * @property string $email_contact
  */
 class LSettings extends \yii\db\ActiveRecord
 {
@@ -29,9 +31,9 @@ class LSettings extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['site', 'site_name', 'link_vk', 'link_instagram', 'link_twitter'], 'required'],
+            [['site', 'site_name', 'link_vk', 'link_instagram', 'link_twitter', 'email_oder', 'email_contact'], 'required'],
             [['site'], 'integer'],
-            [['site_name', 'link_vk', 'link_instagram', 'link_twitter'], 'string'],
+            [['site_name', 'link_vk', 'link_instagram', 'link_twitter', 'email_oder', 'email_contact'], 'string'],
         ];
     }
 
@@ -46,6 +48,8 @@ class LSettings extends \yii\db\ActiveRecord
             'link_vk' => 'Ссылка на VK.COM',
             'link_instagram' => 'Ссылка на Instagram',
             'link_twitter' => 'Ссылка на Twitter',
+            'email_oder' => 'E-mail для заказов',
+            'email_contact' => 'E-mail для контактов',
         ];
     }
 }

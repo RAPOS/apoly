@@ -6,9 +6,11 @@ use app\models\LAbout;
 use app\models\LActions;
 use app\models\LArticles;
 use app\models\LBanners;
+use app\models\LOrders;
 use app\models\LProductionspage;
 use app\models\LSettings;
 use Yii;
+use yii\data\ActiveDataProvider;
 use yii\web\Controller;
 use app\models\LGallery;
 use app\models\LAdmins;
@@ -334,6 +336,23 @@ class DefaultController extends Controller
 		} else {
 			return 'Не пришли данные для удаления';
 		}
+	}
+
+	public function actionOrders()
+	{
+		if (Yii::$app->user->isGuest)  $this->redirect(Yii::$app->user->loginUrl);
+
+		$dataProvider = new ActiveDataProvider([
+			'query' => LOrders::find(),
+			'sort' => [
+				'defaultOrder' => ['id' => SORT_DESC],
+			],
+		]);
+
+
+		return $this->render('orders', [
+			'dataProvider' => $dataProvider,
+		]);
 	}
 
 	public function delTree($dir)

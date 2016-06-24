@@ -35,3 +35,25 @@ function init_preview_file(page){
         $(".file-input .input-group").hide();
     }
 }
+
+function sendMail() {
+    name = $('input[name="LOrder[name]"]').val();
+    phone = $('input[name="LOrder[phone]"]').val();
+    if (!name.length && !phone.length) {
+        return false;
+    } else {
+        $.ajax({
+            url: '/sendmail/',
+            data: {
+                name: name,
+                phone: phone
+            },
+            dataType: 'json',
+            method: 'POST',
+            complete: function (data) {
+                alert('Сообщение отправлено.');
+            }
+        });
+		return false;
+    }
+}
