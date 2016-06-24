@@ -340,6 +340,23 @@ INSERT INTO `l_mainpage` (`site`, `text_activity`, `text_production`, `keywords`
 /*!40000 ALTER TABLE `l_mainpage` ENABLE KEYS */;
 
 
+-- Дамп структуры для таблица apoly.l_orders
+DROP TABLE IF EXISTS `l_orders`;
+CREATE TABLE IF NOT EXISTS `l_orders` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(64) NOT NULL DEFAULT '0',
+  `phone` varchar(64) NOT NULL DEFAULT '0',
+  `date` varchar(64) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8;
+
+-- Дамп данных таблицы apoly.l_orders: ~1 rows (приблизительно)
+/*!40000 ALTER TABLE `l_orders` DISABLE KEYS */;
+INSERT INTO `l_orders` (`id`, `name`, `phone`, `date`) VALUES
+	(12, 'Максим', '+79527399140', '25.06.2016 02:36:39');
+/*!40000 ALTER TABLE `l_orders` ENABLE KEYS */;
+
+
 -- Дамп структуры для таблица apoly.l_productions
 DROP TABLE IF EXISTS `l_productions`;
 CREATE TABLE IF NOT EXISTS `l_productions` (
@@ -372,13 +389,15 @@ CREATE TABLE IF NOT EXISTS `l_settings` (
   `link_vk` text NOT NULL,
   `link_instagram` text NOT NULL,
   `link_twitter` text NOT NULL,
+  `email_order` varchar(64) NOT NULL,
+  `email_contact` varchar(64) NOT NULL,
   UNIQUE KEY `site` (`site`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- Дамп данных таблицы apoly.l_settings: ~1 rows (приблизительно)
 /*!40000 ALTER TABLE `l_settings` DISABLE KEYS */;
-INSERT INTO `l_settings` (`site`, `site_name`, `link_vk`, `link_instagram`, `link_twitter`) VALUES
-	(1, 'ООО «Аполи»', '#', '#', '#');
+INSERT INTO `l_settings` (`site`, `site_name`, `link_vk`, `link_instagram`, `link_twitter`, `email_order`, `email_contact`) VALUES
+	(1, 'ООО «Аполи»', '#', '#', '#', 'mann_aiv@mail.ru', 'mann_aiv@mail.ru');
 /*!40000 ALTER TABLE `l_settings` ENABLE KEYS */;
 /*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
 /*!40014 SET FOREIGN_KEY_CHECKS=IF(@OLD_FOREIGN_KEY_CHECKS IS NULL, 1, @OLD_FOREIGN_KEY_CHECKS) */;
